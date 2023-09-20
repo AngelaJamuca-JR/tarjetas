@@ -4,13 +4,6 @@ from datetime import datetime
 #Clase tarjeta 
 class Tarjeta:
 
-    # Simulacion de una base de datos de tarjetas y saldos disponibles
-    tarjetas_y_saldos = {
-    '1234567890123456': 100000,
-    '9876543210987654': 50000,
-    '1231231231231231': 20000,
-    
-    }
 
     #Función para verificar el numero de la tarjeta 
     def verificar_numero_tarjeta(num_tarjeta):
